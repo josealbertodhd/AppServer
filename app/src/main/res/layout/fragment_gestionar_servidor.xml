@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.GestionarServidor.GestionarServidorFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btn_guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siguiente"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.949"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.304" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.016">
+
+            <TextView
+                android:id="@+id/tv_titulo"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Informacion General" />
+
+            <EditText
+                android:id="@+id/et_codigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Digite Codigo"
+                android:ems="10"
+                android:maxLength="6"
+                android:inputType="number" />
+
+            <Spinner
+                android:id="@+id/spn_sppiner1"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/et_string1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Caracteristicas"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+
+            <Spinner
+                android:id="@+id/spn_sppiner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" />
+
+            <EditText
+                android:id="@+id/et_string2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Modelo"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+
+            <EditText
+                android:id="@+id/et_string3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Marca"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+
+            <EditText
+                android:id="@+id/et_string4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Funcion"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+
+            <Spinner
+                android:id="@+id/spn_sppiner3"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/et_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:focusable="false"
+                android:clickable="true"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/b_agregar"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:text="Agregar" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

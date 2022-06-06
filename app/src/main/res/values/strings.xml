@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">AppServer2</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="gestionar_servidor">Gestionar Servidor</string>
+    <string name="buscar_servidor">Buscar Servidor</string>
+    <string name="listado_servidores">Listado Servidores</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_acceso">Log de Acceso</string>
+    <string name="compartir">Compartir</string>
+    <string name="modificar_fragment">Modificar Servidor</string>
+    <string name="ServidorProd">Servidor Api</string>
+    <string name="database_api">Database Api</string>
+
+    <string-array name="ambiente_servidor">
+        <item>Ambiente</item>
+        <item>Produccion</item>
+        <item>Desarrollo</item>
+    </string-array>
+
+    <string-array name="ambiente_servidor_produccion">
+        <item>Produccion</item>
+        <item>Ambiente</item>
+        <item>Desarrollo</item>
+    </string-array>
+
+    <string-array name="ambiente_servidor_desarrollo">
+        <item>Desarrollo</item>
+        <item>Ambiente</item>
+        <item>Produccion</item>
+    </string-array>
+
+    <string-array name="tipo_servidor">
+        <item>Tipo</item>
+        <item>Virtual</item>
+        <item>Fisico</item>
+    </string-array>
+
+    <string-array name="tipo_servidor_virtual">
+        <item>Virtual</item>
+        <item>Tipo</item>
+        <item>Fisico</item>
+    </string-array>
+
+    <string-array name="tipo_servidor_fisico">
+        <item>Fisico</item>
+        <item>Virtual</item>
+        <item>Tipo</item>
+    </string-array>
+
+    <string-array name="funcion_servidor">
+        <item>Funcion</item>
+        <item>BD</item>
+        <item>Web</item>
+        <item>DNS</item>
+        <item>Directorio Activo</item>
+        <item>Nodo</item>
+    </string-array>
+
+    <string-array name="funcion_servidor_bd">
+        <item>BD</item>
+        <item>Funcion</item>
+        <item>Web</item>
+        <item>DNS</item>
+        <item>Directorio Activo</item>
+        <item>Nodo</item>
+    </string-array>
+
+    <string-array name="funcion_servidor_web">
+        <item>Web</item>
+        <item>Funcion</item>
+        <item>BD</item>
+        <item>DNS</item>
+        <item>Directorio Activo</item>
+        <item>Nodo</item>
+    </string-array>
+
+    <string-array name="funcion_servidor_dns">
+        <item>DNS</item>
+        <item>Funcion</item>
+        <item>Web</item>
+        <item>BD</item>
+        <item>Directorio Activo</item>
+        <item>Nodo</item>
+    </string-array>
+
+    <string-array name="funcion_servidor_directorio">
+        <item>Directorio Activo</item>
+        <item>Funcion</item>
+        <item>DNS</item>
+        <item>Web</item>
+        <item>BD</item>
+        <item>Nodo</item>
+    </string-array>
+
+    <string-array name="funcion_servidor_nodo">
+        <item>Nodo</item>
+        <item>Funcion</item>
+        <item>Directorio Activo</item>
+        <item>DNS</item>
+        <item>Web</item>
+        <item>BD</item>
+
+    </string-array>
+
+    <string-array name="licencia_servidor">
+        <item>Licencia</item>
+        <item>Libre</item>
+        <item>Privada</item>
+    </string-array>
+
+    <string-array name="licencia_servidor_libre">
+        <item>Libre</item>
+        <item>Licencia</item>
+        <item>Privada</item>
+    </string-array>
+
+    <string-array name="licencia_servidor_privada">
+        <item>Privada</item>
+        <item>Licencia</item>
+        <item>Libre</item>
+    </string-array>
+
+    <string-array name="tipo_mantenimiento">
+        <item>Tipo de Mantenimiento</item>
+        <item>Preventivo</item>
+        <item>Correctivo</item>
+    </string-array>
+
+    <string-array name="tipo_mantenimiento_correctivo">
+        <item>Correctivo</item>
+        <item>Tipo de Mantenimiento</item>
+        <item>Preventivo</item>
+    </string-array>
+
+    <string-array name="tipo_mantenimiento_preventivo">
+        <item>Preventivo</item>
+        <item>Tipo de Mantenimiento</item>
+        <item>Correctivo</item>
+    </string-array>
+
+    <string-array name="realizado_mantenimiento">
+        <item>Realizado por</item>
+        <item>Personal Interno</item>
+        <item>Contratista</item>
+    </string-array>
+
+    <string-array name="realizado_mantenimiento_personal">
+        <item>Personal Interno</item>
+        <item>Realizado por</item>
+        <item>Contratista</item>
+    </string-array>
+
+    <string-array name="realizado_mantenimiento_contratista">
+        <item>Contratista</item>
+        <item>Realizado por</item>
+        <item>Personal Interno</item>
+    </string-array>
+
+
+</resources>

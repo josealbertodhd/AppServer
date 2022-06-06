@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_gestionar_servidor">
+
+    <fragment
+        android:id="@+id/nav_log_acceso"
+        android:name="com.example.appserver2.ui.LogAcceso.LogAccesoFragment"
+        android:label="@string/log_acceso"
+        tools:layout="@layout/fragment_log_acceso">
+
+        <action
+            android:id="@+id/nav_listado_to_modificar"
+            app:destination="@+id/nav_listado_servidores"
+            app:popUpTo="@id/nav_log_acceso"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_compartir"
+        android:name="com.example.appserver2.ui.Compartir.CompartirFragment"
+        android:label="@string/compartir"
+        tools:layout="@layout/fragment_compartir" />
+    <fragment
+        android:id="@+id/nav_buscar_servidor"
+        android:name="com.example.appserver2.ui.BuscarServidor.BuscarServidorFragment"
+        android:label="@string/buscar_servidor"
+        tools:layout="@layout/fragment_buscar_servidor" />
+    <fragment
+        android:id="@+id/nav_listado_servidores"
+        android:name="com.example.appserver2.ui.ListadoServidores.ListadoServidoresFragment"
+        android:label="@string/listado_servidores"
+        tools:layout="@layout/fragment_listado_servidores" />
+
+
+    <fragment
+        android:id="@+id/nav_gestionar_servidor"
+        android:name="com.example.appserver2.ui.GestionarServidor.GestionarServidorFragment"
+        android:label="@string/gestionar_servidor"
+        tools:layout="@layout/fragment_gestionar_servidor" />
+
+    <fragment
+        android:id="@+id/nav_modificar_servidor"
+        android:name="com.example.appserver2.ui.ModificarServidor.ModificarFragment"
+        android:label="@string/modificar_fragment"
+        tools:layout="@layout/fragment_gestionar_servidor" />
+
+    <fragment
+        android:id="@+id/nav_servidor_prod"
+        android:name="com.example.appserver2.ui.ServidoresProd.ServidorProdFragment"
+        android:label="@string/ServidorProd"
+        tools:layout="@layout/fragment_servidor_prod" />
+
+    <fragment
+        android:id="@+id/nav_database_api"
+        android:name="com.example.appserver2.ui.DatabaseApi.DatabaseApiFragment"
+        android:label="@string/database_api"
+        tools:layout="@layout/fragment_database_api" />
+
+
+</navigation>
